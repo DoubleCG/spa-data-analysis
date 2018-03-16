@@ -1,6 +1,5 @@
 <template>
     <el-row class="news">
-        history
         <el-row class="title"> 菜品单品历史销量 </el-row>
         <el-row class="content">
             <chart :options="chartData" class="chart"></chart>

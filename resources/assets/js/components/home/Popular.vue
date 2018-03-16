@@ -1,6 +1,5 @@
 <template>
     <el-row class="news">
-        Popular 1
         <el-row class="title"> 最受欢迎TOP3 </el-row>
         <el-row class="content">
             <el-col :span="9" class="number">

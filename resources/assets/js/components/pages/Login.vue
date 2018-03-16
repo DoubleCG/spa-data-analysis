@@ -1,7 +1,5 @@
 <template>
     <el-row>
-        LOGIN
-
         <el-col :span="8" :offset="10" v-if="!user.authenticated">
             <el-form :model="ruleForm2" :rules="rules2" ref="ruleForm2" label-width="100px" class="demo-ruleForm">
                 <el-form-item label="用户名" prop="username">

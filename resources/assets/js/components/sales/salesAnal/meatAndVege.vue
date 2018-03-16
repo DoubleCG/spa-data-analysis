@@ -1,6 +1,5 @@
 <template>
     <el-row class="news">
-        meatAndVege
         <el-row class="title"> 荤素营业额TOP5 </el-row>
         <el-row>
             <el-col :span="10" class="leftPart">

@@ -1,7 +1,5 @@
 <template>
     <el-row>
-        Popular
-
         <el-row type="flex" align="middle">
             <el-col :span="6">
                 <el-date-picker

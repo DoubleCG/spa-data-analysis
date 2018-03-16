@@ -1,13 +1,11 @@
 <template>
     <el-row class="news">
-        historyDetail
         <el-table fit fixed :data="tableData" height="700">
             <el-table-column v-for="title in titles" :prop="title.prop" :label="title.label">
             </el-table-column>
         </el-table>
 
     </el-row>
-
 
 </template>
 

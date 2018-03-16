@@ -1,5 +1,4 @@
 import VueRouter from 'vue-router'
-
 import Store from './store/index'
 import JWTToken from './helpers/JWT'
 

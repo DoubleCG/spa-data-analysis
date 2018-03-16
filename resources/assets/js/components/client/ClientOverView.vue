@@ -1,7 +1,5 @@
 <template>
     <el-row class="news">
-        client-ClientOverView
-
         <el-row class="title">
             客流基本信息
         </el-row>

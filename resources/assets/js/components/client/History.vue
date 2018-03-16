@@ -1,7 +1,5 @@
 <template>
     <el-row class="news">
-        client-History
-
         <el-row class="title">
             历史客流
         </el-row>

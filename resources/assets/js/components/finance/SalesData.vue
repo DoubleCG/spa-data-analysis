@@ -1,15 +1,10 @@
 <template>
     <el-row class="news">
-        finance-SalesData
         <el-row class="title"> 营业额数据 </el-row>
         <el-row>
             <chart :options="chartData" class="chart"></chart>
         </el-row>
-
-
     </el-row>
-
-
 </template>
 
 <style scoped>

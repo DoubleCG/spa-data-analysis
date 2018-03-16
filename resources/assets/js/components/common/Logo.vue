@@ -1,7 +1,5 @@
 <template>
     <el-row class="logoPart">
-        common-Logo 1
-
         <el-row>
             <router-link :to="'/'">
                 <img class="logo" src="./logo.png" alt="">

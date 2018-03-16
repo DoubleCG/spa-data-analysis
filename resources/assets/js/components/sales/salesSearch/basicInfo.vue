@@ -1,6 +1,5 @@
 <template>
     <el-row class="news">
-        basicinfo
         <el-row class="title"> 菜品基本信息 </el-row>
         <el-row class="content">
             <el-col :span="8" class="number" v-if="foodInfo">

@@ -1,6 +1,5 @@
 <template>
     <el-row class="news">
-        finance-MoneyOverView
         <el-row class="title">
             财务概览
         </el-row>

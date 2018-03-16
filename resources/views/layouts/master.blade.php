@@ -7,13 +7,28 @@
     <link rel="icon" href="{{{ asset('img/favicon.ico') }}}">
     <title>欢迎使用</title>
     <link rel="stylesheet" href="/css/app.css">
+    <style>
+        #loading-img{
+            position:fixed;
+            top:50%;
+            left:50%;
+            transform:translateX(-50%) translateY(-50%);
+        }
+    </style>
+
+    <script defer src="/js/app.js"></script>
+
 </head>
 <body>
 
+<img id='loading-img' src='/images/loading.gif'></img>
+<script>
+    window.LoadingImg = document.getElementById('loading-img');
+</script>
 <div id="app">
     <app></app>
 </div>
-<script src="/js/app.js"></script>
-<script src="/js/home.js"></script>
+
+
 </body>
 </html>

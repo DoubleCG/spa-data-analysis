@@ -1,6 +1,5 @@
 <template>
     <el-row class="news">
-        News 1
         <el-row class="title"> 最新动态 </el-row>
         <br/>
         <br/>

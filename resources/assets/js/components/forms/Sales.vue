@@ -1,7 +1,5 @@
 <template>
     <el-row>
-        forms-Sales
-
         <el-row>
             <el-form :inline="true" class="demo-form-inline">
                 <el-form-item>

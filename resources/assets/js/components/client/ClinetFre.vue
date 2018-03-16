@@ -1,7 +1,5 @@
 <template>
     <el-row class="news">
-        client-ClientFre
-
         <el-row class="title">
             客户频率
         </el-row>

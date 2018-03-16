@@ -1,7 +1,5 @@
 <template>
     <el-row>
-        Sales
-
         <el-row>
             <el-tabs v-model="activeName2" type="card" @tab-click="handleClick">
                 <el-tab-pane label="菜品销量分析" name="salesAnal"></el-tab-pane>
@@ -49,9 +47,6 @@
 </style>
 
 <script>
-
-
-
 
     export default {
         mounted() {

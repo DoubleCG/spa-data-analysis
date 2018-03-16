@@ -1,7 +1,5 @@
 <template>
     <el-menu :default-active="activeIndex2" class="el-menu-demo" mode="horizontal" @select="handleSelect">
-        common-TopNav 1
-
         <el-row type="flex" align="middle">
 
             <el-col :span="5" :offset="17" v-if="user.authenticated">

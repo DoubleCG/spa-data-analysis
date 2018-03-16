@@ -1,6 +1,5 @@
 <template>
     <el-row class="news">
-        platePrice
         <el-row class="title"> 餐盘价格分布 </el-row>
         <el-row class="below">
             <chart :options="chartData" class="chart"></chart>

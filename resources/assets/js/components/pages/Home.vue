@@ -1,7 +1,5 @@
 <template>
     <el-row>
-        HOME
-
         <el-row>
             <el-col :span="10" class="news">
                 <news></news>

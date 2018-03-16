@@ -1,7 +1,5 @@
 <template>
     <el-row class="news">
-        foodDetail
-
         <el-table fit fixed :data="tableData" height="700">
             <i class="el-icon-download"></i>
             <el-table-column v-for="title in titles" :prop="title.prop" :label="title.label">

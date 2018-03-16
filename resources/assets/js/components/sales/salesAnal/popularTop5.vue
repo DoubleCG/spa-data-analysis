@@ -1,6 +1,5 @@
 <template>
     <el-row class="news">
-        popularTop5
         <el-row class="title"> 最受欢迎TOP5 </el-row>
         <el-row>
             <el-col :span="10" class="leftPart">

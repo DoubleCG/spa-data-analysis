@@ -1,6 +1,5 @@
 <template>
     <el-row class="news">
-        bestPartner
         <el-row class="title" v-tooltip.top="'something to explain'">
             最佳搭配TOP5
         </el-row>

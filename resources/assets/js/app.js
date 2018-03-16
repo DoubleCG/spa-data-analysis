@@ -1,9 +1,7 @@
-/**
-* This file is the entry of webpack bundling...
-* */
-
-require('./link');
-
+window._ = require('lodash');
+window.$ = window.jQuery = require('jquery');
+window.axios = require('axios');
+window.axios.defaults.headers.common['X-Requested-With'] = 'XMLHttpRequest';
 window.Vue = require('vue');
 
 
@@ -19,7 +17,6 @@ import router from './routes';
 import store from './store/index';
 import jwtToken from './helpers/JWT';
 
-
 // !import not to change....-------------
 // Add a request interceptor
 axios.interceptors.request.use(
@@ -33,7 +30,6 @@ axios.interceptors.request.use(
     }
 );
 // -------------------------------------
-
 
 // 全局声明
 Vue.component('app', App);

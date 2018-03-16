@@ -1,6 +1,5 @@
 <template>
     <el-row>
-        SalesAnal
         <el-row>
             <el-form :inline="true" class="demo-form-inline">
                 <el-form-item>

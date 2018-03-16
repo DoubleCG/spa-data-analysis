@@ -1,6 +1,5 @@
 <template>
     <el-row class="news">
-        DataShow 1
         <el-row class="title"> 今日数据 </el-row>
         <el-row class="firstRow">
             <el-col :span="12" class="moneyOverView">

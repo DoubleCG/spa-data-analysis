@@ -1,6 +1,5 @@
 <template>
     <el-row class="news">
-        PayType 1
         <el-row class="title">支付方式</el-row>
         <el-row class="below">
             <chart :options="chartData" class="chart"></chart>

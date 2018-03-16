@@ -1,6 +1,5 @@
 <template>
     <el-row class="news">
-        TodayClient 1
         <el-row class="title"> 今日客流总量 </el-row>
         <el-row>
             <chart :options="chartData" class="chart"></chart>

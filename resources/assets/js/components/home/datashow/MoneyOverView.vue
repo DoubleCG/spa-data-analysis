@@ -1,6 +1,5 @@
 <template>
     <el-row class="news">
-        MoneyOverView 1
         <br>
         <el-row class="title"  @click.native="go">
             财务概览

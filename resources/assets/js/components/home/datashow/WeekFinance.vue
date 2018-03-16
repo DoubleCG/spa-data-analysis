@@ -1,11 +1,9 @@
 <template>
     <el-row class="news">
-        WeekFinance 1
         <el-row class="title"> 周营业额数据 </el-row>
         <el-row>
             <chart :options="chartData" class="chart"></chart>
         </el-row>
-
 
     </el-row>
 

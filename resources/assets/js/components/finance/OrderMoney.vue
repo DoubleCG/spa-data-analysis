@@ -1,14 +1,8 @@
 <template>
     <el-row class="news">
-        finance-OrderMoney
-
         <el-row class="title">订单金额分布情况</el-row>
         <el-row> <chart :options="chartData" class="chart"></chart> </el-row>
-
-
     </el-row>
-
-
 </template>
 
 <style scoped>
